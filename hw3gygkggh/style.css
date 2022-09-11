@@ -72,13 +72,21 @@ body{
     display: flex;
 }
 
-#icons img{
+#icons a{
     display: inline-block;
     flex: 1;
     transform: scale(0.7, 0.7);
     object-fit: none;
-    
+    display: flex;
+    align-items:center;
 }
+#icons a img{
+    align-items: center;
+    object-fit: none;
+    flex: 1;
+
+}
+
 .pg2 p{
     font-size: larger;
     font-weight: bold;
